@@ -1,0 +1,11 @@
+requests==2.31.0
+pandas==2.1.4
+SQLAlchemy==2.0.25
+psycopg2-binary==2.9.9
+apache-airflow==2.8.1
+pytest==7.4.4
+pytest-mock==3.12.0
+python-dotenv==1.0.0
+loguru==0.7.2
+great-expectations==0.18.8
+duckdb==0.10.0

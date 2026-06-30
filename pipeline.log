@@ -1,0 +1,157 @@
+2026-06-13 16:55:09 | INFO     | src.transform.transformer | Transforming 1 raw record(s).
+2026-06-13 16:55:09 | INFO     | src.transform.transformer | Transform complete — dim_location=1, dim_time=3, fact_weather=3
+2026-06-13 16:55:09 | INFO     | src.transform.transformer | Transforming 1 raw record(s).
+2026-06-13 16:55:09 | INFO     | src.transform.transformer | Transform complete — dim_location=1, dim_time=3, fact_weather=3
+2026-06-13 16:55:09 | INFO     | src.transform.transformer | Transforming 1 raw record(s).
+2026-06-13 16:55:09 | INFO     | src.transform.transformer | Transform complete — dim_location=1, dim_time=3, fact_weather=3
+2026-06-13 16:55:09 | INFO     | src.transform.transformer | Transforming 1 raw record(s).
+2026-06-13 16:55:09 | INFO     | src.transform.transformer | Transform complete — dim_location=1, dim_time=3, fact_weather=3
+2026-06-13 16:55:09 | INFO     | src.transform.transformer | Transforming 1 raw record(s).
+2026-06-13 16:55:09 | INFO     | src.transform.transformer | Transform complete — dim_location=1, dim_time=3, fact_weather=3
+2026-06-13 16:55:09 | INFO     | src.transform.transformer | Transforming 1 raw record(s).
+2026-06-13 16:55:09 | INFO     | src.transform.transformer | Transform complete — dim_location=1, dim_time=3, fact_weather=3
+2026-06-13 16:55:09 | INFO     | src.transform.transformer | Transforming 0 raw record(s).
+2026-06-13 16:55:09 | INFO     | src.validate.validator | Validating dim_location …
+2026-06-13 16:55:09 | INFO     | src.validate.validator | Validation PASSED
+2026-06-13 16:55:09 | INFO     | src.validate.validator | Validating dim_time …
+2026-06-13 16:55:09 | INFO     | src.validate.validator | Validation PASSED
+2026-06-13 16:55:09 | INFO     | src.validate.validator | Validating fact_weather …
+2026-06-13 16:55:09 | INFO     | src.validate.validator | Validation PASSED
+2026-06-13 16:55:09 | INFO     | src.validate.validator | ✓ ALL VALIDATIONS PASSED
+2026-06-13 16:55:09 | INFO     | src.validate.validator | Validating fact_weather …
+2026-06-13 16:55:09 | INFO     | src.validate.validator | Validation FAILED
+  [ERROR]   [fact_weather] Missing required columns: ['weather_id']
+2026-06-13 16:55:09 | INFO     | src.validate.validator | Validating fact_weather …
+2026-06-13 16:55:09 | INFO     | src.validate.validator | Validation FAILED
+  [ERROR]   [fact_weather] Column 'location_id' has 1 NULL value(s).
+2026-06-13 16:55:09 | INFO     | src.validate.validator | Validating dim_location …
+2026-06-13 16:55:09 | INFO     | src.validate.validator | Validation FAILED
+  [ERROR]   [dim_location] 2 duplicate row(s) on ['location_name'].
+2026-06-13 16:55:09 | INFO     | src.validate.validator | Validating dim_location …
+2026-06-13 16:55:09 | INFO     | src.validate.validator | Validation PASSED
+  [WARNING] [dim_location] Column 'latitude' has 1 value(s) outside [-90, 90].
+2026-06-13 16:55:09 | INFO     | src.validate.validator | Validating dim_time …
+2026-06-13 16:55:09 | INFO     | src.validate.validator | Validation PASSED
+2026-06-13 16:55:09 | INFO     | src.extract.api_extractor | Starting extraction for 1 location(s).
+2026-06-13 16:55:09 | INFO     | src.extract.api_extractor | ✓ Extracted data for Lagos, Nigeria.
+2026-06-13 16:55:09 | INFO     | src.extract.api_extractor | Extraction complete. 1/1 locations succeeded.
+2026-06-13 16:55:09 | INFO     | src.extract.api_extractor | Starting extraction for 1 location(s).
+2026-06-13 16:55:09 | ERROR    | src.extract.api_extractor | ✗ Failed to extract data for Lagos: Cannot connect to Open-Meteo API: offline
+2026-06-13 16:55:09 | INFO     | src.extract.api_extractor | Extraction complete. 0/1 locations succeeded.
+2026-06-13 16:55:19 | INFO     | src.transform.transformer | Transforming 1 raw record(s).
+2026-06-13 16:55:19 | INFO     | src.transform.transformer | Transform complete — dim_location=1, dim_time=3, fact_weather=3
+2026-06-13 16:55:19 | INFO     | src.transform.transformer | Transforming 1 raw record(s).
+2026-06-13 16:55:19 | INFO     | src.transform.transformer | Transform complete — dim_location=1, dim_time=3, fact_weather=3
+2026-06-13 16:55:19 | INFO     | src.transform.transformer | Transforming 1 raw record(s).
+2026-06-13 16:55:19 | INFO     | src.transform.transformer | Transform complete — dim_location=1, dim_time=3, fact_weather=3
+2026-06-13 16:55:19 | INFO     | src.transform.transformer | Transforming 1 raw record(s).
+2026-06-13 16:55:19 | INFO     | src.transform.transformer | Transform complete — dim_location=1, dim_time=3, fact_weather=3
+2026-06-13 16:55:19 | INFO     | src.transform.transformer | Transforming 1 raw record(s).
+2026-06-13 16:55:19 | INFO     | src.transform.transformer | Transform complete — dim_location=1, dim_time=3, fact_weather=3
+2026-06-13 16:55:19 | INFO     | src.transform.transformer | Transforming 1 raw record(s).
+2026-06-13 16:55:19 | INFO     | src.transform.transformer | Transform complete — dim_location=1, dim_time=3, fact_weather=3
+2026-06-13 16:55:19 | INFO     | src.transform.transformer | Transforming 0 raw record(s).
+2026-06-13 16:55:19 | INFO     | src.validate.validator | Validating dim_location …
+2026-06-13 16:55:19 | INFO     | src.validate.validator | Validation PASSED
+2026-06-13 16:55:19 | INFO     | src.validate.validator | Validating dim_time …
+2026-06-13 16:55:19 | INFO     | src.validate.validator | Validation PASSED
+2026-06-13 16:55:19 | INFO     | src.validate.validator | Validating fact_weather …
+2026-06-13 16:55:19 | INFO     | src.validate.validator | Validation PASSED
+2026-06-13 16:55:19 | INFO     | src.validate.validator | ✓ ALL VALIDATIONS PASSED
+2026-06-13 16:55:19 | INFO     | src.validate.validator | Validating fact_weather …
+2026-06-13 16:55:19 | INFO     | src.validate.validator | Validation FAILED
+  [ERROR]   [fact_weather] Missing required columns: ['weather_id']
+2026-06-13 16:55:19 | INFO     | src.validate.validator | Validating fact_weather …
+2026-06-13 16:55:19 | INFO     | src.validate.validator | Validation FAILED
+  [ERROR]   [fact_weather] Column 'location_id' has 1 NULL value(s).
+2026-06-13 16:55:19 | INFO     | src.validate.validator | Validating dim_location …
+2026-06-13 16:55:19 | INFO     | src.validate.validator | Validation FAILED
+  [ERROR]   [dim_location] 2 duplicate row(s) on ['location_name'].
+2026-06-13 16:55:19 | INFO     | src.validate.validator | Validating dim_location …
+2026-06-13 16:55:19 | INFO     | src.validate.validator | Validation PASSED
+  [WARNING] [dim_location] Column 'latitude' has 1 value(s) outside [-90, 90].
+2026-06-13 16:55:19 | INFO     | src.validate.validator | Validating dim_time …
+2026-06-13 16:55:19 | INFO     | src.validate.validator | Validation PASSED
+2026-06-13 16:55:19 | INFO     | src.extract.api_extractor | Starting extraction for 1 location(s).
+2026-06-13 16:55:19 | INFO     | src.extract.api_extractor | ✓ Extracted data for Lagos, Nigeria.
+2026-06-13 16:55:19 | INFO     | src.extract.api_extractor | Extraction complete. 1/1 locations succeeded.
+2026-06-13 16:55:19 | INFO     | src.extract.api_extractor | Starting extraction for 1 location(s).
+2026-06-13 16:55:19 | ERROR    | src.extract.api_extractor | ✗ Failed to extract data for Lagos: Cannot connect to Open-Meteo API: offline
+2026-06-13 16:55:19 | INFO     | src.extract.api_extractor | Extraction complete. 0/1 locations succeeded.
+2026-06-13 16:55:28 | INFO     | __main__ | ============================================================
+2026-06-13 16:55:28 | INFO     | __main__ | STARTING ETL PIPELINE
+2026-06-13 16:55:28 | INFO     | __main__ | ============================================================
+2026-06-13 16:55:28 | INFO     | __main__ | Step 1/4 — Extract
+2026-06-13 16:55:28 | INFO     | src.extract.api_extractor | Starting extraction for 5 location(s).
+2026-06-13 16:55:28 | ERROR    | src.extract.api_extractor | ✗ Failed to extract data for Lagos: API returned HTTP 403 for Lagos. Body: Host not in allowlist: api.open-meteo.com. Add this host to your network egress settings to allow access.
+2026-06-13 16:55:28 | ERROR    | src.extract.api_extractor | ✗ Failed to extract data for Accra: API returned HTTP 403 for Accra. Body: Host not in allowlist: api.open-meteo.com. Add this host to your network egress settings to allow access.
+2026-06-13 16:55:28 | ERROR    | src.extract.api_extractor | ✗ Failed to extract data for Abidjan: API returned HTTP 403 for Abidjan. Body: Host not in allowlist: api.open-meteo.com. Add this host to your network egress settings to allow access.
+2026-06-13 16:55:28 | ERROR    | src.extract.api_extractor | ✗ Failed to extract data for Windhoek: API returned HTTP 403 for Windhoek. Body: Host not in allowlist: api.open-meteo.com. Add this host to your network egress settings to allow access.
+2026-06-13 16:55:28 | ERROR    | src.extract.api_extractor | ✗ Failed to extract data for London: API returned HTTP 403 for London. Body: Host not in allowlist: api.open-meteo.com. Add this host to your network egress settings to allow access.
+2026-06-13 16:55:28 | INFO     | src.extract.api_extractor | Raw data saved → /home/claude/weather_analytics/data/raw/weather_raw_20260613.json
+2026-06-13 16:55:28 | INFO     | src.extract.api_extractor | Extraction complete. 0/5 locations succeeded.
+2026-06-13 16:55:28 | ERROR    | __main__ | Extraction returned no records. Aborting.
+2026-06-13 16:55:28 | INFO     | __main__ | ============================================================
+2026-06-13 16:55:28 | INFO     | __main__ | STARTING ELT PIPELINE
+2026-06-13 16:55:28 | INFO     | __main__ | ============================================================
+2026-06-13 16:55:28 | INFO     | __main__ | Step 1/4 — Extract raw data
+2026-06-13 16:55:28 | INFO     | src.extract.api_extractor | Starting extraction for 5 location(s).
+2026-06-13 16:55:28 | ERROR    | src.extract.api_extractor | ✗ Failed to extract data for Lagos: API returned HTTP 403 for Lagos. Body: Host not in allowlist: api.open-meteo.com. Add this host to your network egress settings to allow access.
+2026-06-13 16:55:28 | ERROR    | src.extract.api_extractor | ✗ Failed to extract data for Accra: API returned HTTP 403 for Accra. Body: Host not in allowlist: api.open-meteo.com. Add this host to your network egress settings to allow access.
+2026-06-13 16:55:28 | ERROR    | src.extract.api_extractor | ✗ Failed to extract data for Abidjan: API returned HTTP 403 for Abidjan. Body: Host not in allowlist: api.open-meteo.com. Add this host to your network egress settings to allow access.
+2026-06-13 16:55:28 | ERROR    | src.extract.api_extractor | ✗ Failed to extract data for Windhoek: API returned HTTP 403 for Windhoek. Body: Host not in allowlist: api.open-meteo.com. Add this host to your network egress settings to allow access.
+2026-06-13 16:55:28 | ERROR    | src.extract.api_extractor | ✗ Failed to extract data for London: API returned HTTP 403 for London. Body: Host not in allowlist: api.open-meteo.com. Add this host to your network egress settings to allow access.
+2026-06-13 16:55:28 | INFO     | src.extract.api_extractor | Raw data saved → /home/claude/weather_analytics/data/raw/weather_raw_20260613.json
+2026-06-13 16:55:28 | INFO     | src.extract.api_extractor | Extraction complete. 0/5 locations succeeded.
+2026-06-13 16:55:28 | ERROR    | __main__ | Extraction returned no records. Aborting ELT.
+2026-06-13 16:55:56 | INFO     | __main__ | === DEMO RUN: Transform ===
+2026-06-13 16:55:56 | INFO     | src.transform.transformer | Transforming 5 raw record(s).
+2026-06-13 16:55:56 | INFO     | src.transform.transformer | Transform complete — dim_location=5, dim_time=48, fact_weather=240
+2026-06-13 16:55:56 | INFO     | __main__ | === DEMO RUN: Validate ===
+2026-06-13 16:55:56 | INFO     | src.validate.validator | Validating dim_location …
+2026-06-13 16:55:56 | INFO     | src.validate.validator | Validation PASSED
+2026-06-13 16:55:56 | INFO     | src.validate.validator | Validating dim_time …
+2026-06-13 16:55:56 | INFO     | src.validate.validator | Validation PASSED
+2026-06-13 16:55:56 | INFO     | src.validate.validator | Validating fact_weather …
+2026-06-13 16:55:56 | INFO     | src.validate.validator | Validation PASSED
+2026-06-13 16:55:56 | INFO     | src.validate.validator | ✓ ALL VALIDATIONS PASSED
+2026-06-13 16:55:56 | INFO     | __main__ | === DEMO RUN: Load → DuckDB ===
+2026-06-13 16:55:56 | INFO     | src.load.db_loader | Connected to DuckDB at 'weather_analytics.duckdb'.
+2026-06-13 16:55:56 | ERROR    | src.load.db_loader | SQL execution error: '_duckdb.DuckDBPyConnection' object has no attribute 'executescript'
+2026-06-13 16:55:56 | INFO     | src.load.db_loader | Database connection closed.
+2026-06-13 16:56:07 | INFO     | __main__ | === DEMO RUN: Transform ===
+2026-06-13 16:56:07 | INFO     | src.transform.transformer | Transforming 5 raw record(s).
+2026-06-13 16:56:07 | INFO     | src.transform.transformer | Transform complete — dim_location=5, dim_time=48, fact_weather=240
+2026-06-13 16:56:07 | INFO     | __main__ | === DEMO RUN: Validate ===
+2026-06-13 16:56:07 | INFO     | src.validate.validator | Validating dim_location …
+2026-06-13 16:56:07 | INFO     | src.validate.validator | Validation PASSED
+2026-06-13 16:56:07 | INFO     | src.validate.validator | Validating dim_time …
+2026-06-13 16:56:07 | INFO     | src.validate.validator | Validation PASSED
+2026-06-13 16:56:07 | INFO     | src.validate.validator | Validating fact_weather …
+2026-06-13 16:56:07 | INFO     | src.validate.validator | Validation PASSED
+2026-06-13 16:56:07 | INFO     | src.validate.validator | ✓ ALL VALIDATIONS PASSED
+2026-06-13 16:56:07 | INFO     | __main__ | === DEMO RUN: Load → DuckDB ===
+2026-06-13 16:56:07 | INFO     | src.load.db_loader | Connected to DuckDB at 'weather_analytics.duckdb'.
+2026-06-13 16:56:07 | INFO     | src.load.db_loader | Schema created / verified.
+2026-06-13 16:56:07 | INFO     | src.load.db_loader | ✓ Loaded 5 row(s) into 'dim_location'.
+2026-06-13 16:56:07 | INFO     | src.load.db_loader | ✓ Loaded 48 row(s) into 'dim_time'.
+2026-06-13 16:56:07 | INFO     | src.load.db_loader | ✓ Loaded 240 row(s) into 'fact_weather'.
+2026-06-13 16:56:07 | INFO     | src.load.db_loader | Database connection closed.
+2026-06-13 16:56:59 | INFO     | __main__ | === DEMO RUN: Transform ===
+2026-06-13 16:56:59 | INFO     | src.transform.transformer | Transforming 5 raw record(s).
+2026-06-13 16:56:59 | INFO     | src.transform.transformer | Transform complete — dim_location=5, dim_time=48, fact_weather=240
+2026-06-13 16:56:59 | INFO     | __main__ | === DEMO RUN: Validate ===
+2026-06-13 16:56:59 | INFO     | src.validate.validator | Validating dim_location …
+2026-06-13 16:56:59 | INFO     | src.validate.validator | Validation PASSED
+2026-06-13 16:56:59 | INFO     | src.validate.validator | Validating dim_time …
+2026-06-13 16:56:59 | INFO     | src.validate.validator | Validation PASSED
+2026-06-13 16:56:59 | INFO     | src.validate.validator | Validating fact_weather …
+2026-06-13 16:56:59 | INFO     | src.validate.validator | Validation PASSED
+2026-06-13 16:56:59 | INFO     | src.validate.validator | ✓ ALL VALIDATIONS PASSED
+2026-06-13 16:56:59 | INFO     | __main__ | === DEMO RUN: Load → DuckDB ===
+2026-06-13 16:56:59 | INFO     | src.load.db_loader | Connected to DuckDB at 'weather_analytics.duckdb'.
+2026-06-13 16:56:59 | INFO     | src.load.db_loader | Schema created / verified.
+2026-06-13 16:56:59 | INFO     | src.load.db_loader | ✓ Loaded 5 row(s) into 'dim_location'.
+2026-06-13 16:56:59 | INFO     | src.load.db_loader | ✓ Loaded 48 row(s) into 'dim_time'.
+2026-06-13 16:56:59 | INFO     | src.load.db_loader | ✓ Loaded 240 row(s) into 'fact_weather'.
+2026-06-13 16:56:59 | INFO     | src.load.db_loader | Database connection closed.
