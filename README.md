@@ -1,4 +1,4 @@
-# Weather-Analytics-Pipeline
+# Weather Analytics Pipeline
 ---
 
 ## Overview
