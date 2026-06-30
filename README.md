@@ -294,8 +294,8 @@ fact_weather (240 rows across 5 locations × 48 hours)
 
 ## Author
 
-**Ime Eti-mfon** | Senior Data Scientist & Engineer  
-Founder, [Zilstack](https://zilstack.com) — Full-Stack Data Solutions  
-MSc Financial Engineering, WorldQuant University  
+**Ime Eti-mfon** | Data Scientist & Engineer  
+Founder, [Zilstack](https://zilstack.com) - Full-Stack Data Solutions  
+
 Lagos, Nigeria
 
